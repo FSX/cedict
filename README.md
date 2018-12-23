@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/hermanschaaf/cedict.svg?branch=master)](https://travis-ci.org/hermanschaaf/cedict)
+[![Build Status](https://travis-ci.org/FSX/cedict.svg?branch=master)](https://travis-ci.org/hermanschaaf/cedict)
+
+NOTE: A friendly fork for personal use.
 
 CEDict Parser in Go
 -------------------
@@ -21,7 +23,7 @@ You will need a copy of the CEDict dictionary text file. You can [download CEDic
 Tokenizing is done by creating a `CEDict` for an `io.Reader` `r`. It is the
 caller's responsibility to ensure that `r` provides a CEDict-formatted dictionary.
 
-        import "github.com/hermanschaaf/cedict"
+        import "github.com/FSX/cedict"
 
         ...
 
@@ -48,4 +50,4 @@ that be necessary.
 
 ### Documentation
 
-Full documentation can be found at [https://godoc.org/github.com/hermanschaaf/cedict](https://godoc.org/github.com/hermanschaaf/cedict)
+Full documentation can be found at [https://godoc.org/github.com/FSX/cedict](https://godoc.org/github.com/FSX/cedict)
