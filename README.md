@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/FSX/cedict.svg?branch=master)](https://travis-ci.org/hermanschaaf/cedict)
+[![Build Status](https://travis-ci.org/FSX/cedict.svg?branch=master)](https://travis-ci.org/FSX/cedict)
 
 NOTE: A friendly fork for personal use.
 
@@ -13,7 +13,7 @@ Chinese dictionary project](http://www.mdbg.net/chindict/chindict.php?page=cedic
 Assuming you have Go installed, installation is as easy as running:
 
 ```
-go get github.com/hermanschaaf/cedict
+go get github.com/FSX/cedict
 ```
 
 You will need a copy of the CEDict dictionary text file. You can [download CEDict from MDBG.net](http://www.mdbg.net/chindict/chindict.php?page=cedict). Extract the file somewhere you want to use it from, and then follow the usage instructions below.
