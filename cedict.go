@@ -132,7 +132,7 @@ func New(r io.Reader) *CEDict {
 // its appropriate UTF-8 character with tone marks
 func toneLookupTable(tone int) (map[string]string, error) {
 	if tone < 0 || tone > 5 {
-		return nil, fmt.Errorf("Tried to create tone lookup table with tone %i", tone)
+		return nil, fmt.Errorf("Tried to create tone lookup table with tone %d", tone)
 	}
 
 	lookupTable := map[string][]string{
